@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Pedidos</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="selectorE">Selector Eª</string>
+    <string name="nuevoPedido">Nuevo Pedido</string>
+    <string name="listarPedidos">Listar Pedidos</string>
+    <string name="existencias">Existencias</string>
+    <string name="title_activity_update_empresa">UpdateEmpresa</string>
+    <string name="empresa">Empresa</string>
+    <string name="gerente">Gerente</string>
+    <string name="logo">Logo</string>
+    <string name="correo">Correo</string>
+    <string name="codigoEmpresa">Código Empresa</string>
+    <string name="repetirCodigoEmpresa">Repetir código</string>
+    <string name="escritura">Permitir escritura a los empleados</string>
+    <string name="notificaciones">Notificarme movimientos</string>
+    <string name="examinar">cargar imagen</string>
+    <string name="title_activity_nuevopedido">nuevopedido</string>
+    <string name="cliente">Cliente</string>
+    <string name="categoria">Categoría</string>
+    <string name="idProducto">Especialidad</string>
+    <string name="pvp">PVP</string>
+    <string name="kg">Kg</string>
+    <string name="pvpAcordado">PVP Acordado</string>
+    <string name="cocido">¿Cocido?</string>
+    <string name="anadirArticulo">Añadir artículo</string>
+    <string name="anadirCliente">Añadir cliente</string>
+    <string name="articulosAnadidos">Artículos añadidos</string>
+    <string name="precio">PVP</string>
+    <string name="anadirPedido">Añadir pedido</string>
+    <string name="euro">€</string>
+    <string name="title_activity_detalle_pedido">DetallePedido</string>
+    <string name="fechaRecogida">Fecha Recogida</string>
+    <string name="importeTotal">Importe</string>
+    <string name="paraEnvio">¿para envío?</string>
+    <string name="pagado">¿Pagado?</string>
+    <string name="direccionEnvio">Dirección de envío</string>
+    <string name="comentarios">Comentarios</string>
+    <string name="precioCoste">Precio coste</string>
+    <string name="title_activity_listar_pedidos">ListarPedidos</string>
+    <string name="title_activity_existencias">Existencias</string>
+    <string name="actualizarExistencias">Actualizar existencias</string>
+    <string name="title_activity_selector_e">SelectorE</string>
+    <string name="AddToEmpresa">Añadirme a una empresa</string>
+    <string name="crearEmpresa">Crear Empresa</string>
+    <string name="title_activity_crear_empresa">CrearEmpresa</string>
+    <string name="nombreEmpresa">Nombre Empresa</string>
+    <string name="gerenteEmpresa">GERENTE DE LA EMPRESA</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellidos">Apellidos</string>
+    <string name="pass">contraseña</string>
+    <string name="repeatPass">repita contraseña</string>
+    <string name="codEmpresa">Código de empresa:</string>
+    <string name="repiteCodE">repita código</string>
+    <string name="title_activity_codigo_empresa">CodigoEmpresa</string>
+    <string name="compartirCodigo">Facilite este código a las personas con las que quiere compartir los datos de su empresa.</string>
+    <string name="cambiarCodigo">Puede modificar este código una vez creada la empresa.</string>
+    <string name="codigoFicticio">código</string>
+    <string name="title_activity_anadirme">Anadirme</string>
+    <string name="introduzcaCodigo">Introduzca código de empresa:</string>
+    <string name="laParada">LA PARADA S.L.</string>
+    <string name="altaUsuario">Alta usuario</string>
+    <string name="usuario">usuario</string>
+    <string name="title_activity_alta_usuario">AltaUsuario</string>
+    <string name="logoEmpresa">Logo Eª</string>
+    <string name="tlf">Teléfono</string>
+    <string name="ciudad">Ciudad</string>
+    <string name="bar">¿Es Bar?</string>
+    <string name="listadp_clientes">Listado Clientes</string>
+    <string name="eliminar_cliente">Eliminar cliente</string>
+    <string name="actualizar">Actualizar</string>
+    <string name="alta_cliente">Alta Cliente</string>
+    <string name="creandoE">Creando Empresa...</string>
+    <string name="validandoCodigo">Validando código introducido...</string>
+    <string name="codigoCorrecto">Código correcto.</string>
+    <string name="altaUsuarioE">Alta de usuario en la empresa:</string>
+    <string name="anadiendoUsuario">Añadiendo usuario a la empresa</string>
+    <string name="actualizarPedido">Actualizar pedido</string>
+    <string name="Cambiar">cambiar</string>
+
+    <string-array name="spinners">
+        <item>Spinner opción 1</item>
+        <item>Spinner opción 2</item>
+        <item>Spinner opción 3</item>
+    </string-array>
+
+    <string name="title_activity_alta__cliente">Alta_Cliente</string>
+    <string name="title_activity_listado__clientes">Listado_Clientes</string>
+    <string name="title_activity_editar_cliente">EditarCliente</string>
+
+</resources>

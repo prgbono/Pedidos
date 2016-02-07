@@ -1,0 +1,199 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="es.frios.pedidos.CrearEmpresa"
+    android:background="@color/fondo">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@color/naranja"
+        android:id="@+id/linearLayout15"
+        android:weightSum="2"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:onClick="back">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView30"
+                android:src="@drawable/back"
+                android:scaleType="fitCenter"
+                android:padding="7dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:padding="7dp" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:id="@+id/imageView31"
+                android:src="@drawable/done"
+                android:padding="-7dp"
+                android:onClick="crearEmpresa" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/linearLayout15"
+        android:layout_centerHorizontal="true"
+        android:background="@color/azul"
+        android:id="@+id/linearLayout16"></LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/linearLayout16">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/solobordelayout"
+            android:padding="12dp"
+            android:layout_marginBottom="30dp"
+            android:gravity="center">
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editNombreECrearEmpresa"
+                android:textColor="@color/azul"
+                android:backgroundTint="@color/azul"
+                android:hint="@string/nombreEmpresa" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:padding="12dp"
+            android:background="@drawable/solobordelayout"
+            android:layout_marginBottom="10dp" >
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="left"
+                android:layout_marginBottom="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/gerenteEmpresa"
+                    android:id="@+id/textView39"
+                    android:textColor="@color/azul"
+                    android:textSize="18sp"
+                    android:password="false"
+                    android:backgroundTint="@color/azul" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="left"
+                android:layout_marginBottom="10dp">
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editNombreGerenteCrearEmpresa"
+                    android:textColor="@color/azul"
+                    android:backgroundTint="@color/azul"
+                    android:hint="@string/nombre" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="left"
+                android:layout_marginBottom="10dp">
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editContrasenaCrearEmpresa"
+                    android:textColor="@color/azul"
+                    android:backgroundTint="@color/azul"
+                    android:hint="@string/codigoEmpresa"
+                    android:password="true" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="left"
+                android:layout_marginBottom="10dp">
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editConfirmarContrasenaCrearEmpresa"
+                    android:textColor="@color/azul"
+                    android:backgroundTint="@color/azul"
+                    android:hint="@string/repiteCodE"
+                    android:password="true" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linearLayout4"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:gravity="left"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:paddingTop="25dp"
+                android:layout_marginTop="10dp">
+
+                <CheckBox
+                    android:layout_width="354dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/escritura"
+                    android:id="@+id/checkLECrearEmpresa"
+                    android:textColor="@color/azul"
+                    android:checked="false" />
+
+                <CheckBox
+                    android:layout_width="354dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/notificaciones"
+                    android:id="@+id/checkNotificacionesCrearEmpresa"
+                    android:textColor="@color/azul"
+                    android:checked="false" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

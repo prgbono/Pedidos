@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="es.frios.pedidos" >
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".UpdateEmpresa"
+            android:label="@string/title_activity_update_empresa" >
+        </activity>
+        <activity
+            android:name=".nuevopedido"
+            android:label="@string/title_activity_nuevopedido" >
+        </activity>
+        <activity
+            android:name=".DetallePedido"
+            android:label="@string/title_activity_detalle_pedido" >
+        </activity>
+        <activity
+            android:name=".ListarPedidos"
+            android:label="@string/title_activity_listar_pedidos" >
+        </activity>
+        <activity
+            android:name=".Existencias"
+            android:label="@string/title_activity_existencias" >
+        </activity>
+        <activity
+            android:name=".SelectorE"
+            android:label="@string/title_activity_selector_e" >
+        </activity>
+        <activity
+            android:name=".CrearEmpresa"
+            android:label="@string/title_activity_crear_empresa" >
+        </activity>
+        <activity
+            android:name=".CodigoEmpresa"
+            android:label="@string/title_activity_codigo_empresa" >
+        </activity>
+        <activity
+            android:name=".Anadirme"
+            android:label="@string/title_activity_anadirme" >
+        </activity>
+        <activity
+            android:name=".AltaUsuario"
+            android:label="@string/title_activity_alta_usuario" >
+        </activity>
+        <activity
+            android:name=".Alta_Cliente"
+            android:label="@string/title_activity_alta__cliente" >
+        </activity>
+        <activity
+            android:name=".Listado_Clientes"
+            android:label="@string/title_activity_listado__clientes" >
+        </activity>
+        <activity
+            android:name=".editarCliente"
+            android:label="@string/title_activity_editar_cliente" >
+        </activity>
+        <activity
+            android:name=".EditarCliente"
+            android:label="@string/title_activity_editar_cliente" >
+        </activity>
+    </application>
+
+</manifest>
